@@ -1,0 +1,7 @@
+node_modules/
+layerup-site/
+reference.html
+assets-list.json
+.env
+.env.*
+*.log
