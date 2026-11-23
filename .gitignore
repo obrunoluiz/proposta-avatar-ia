@@ -5,3 +5,4 @@ assets-list.json
 .env
 .env.*
 *.log
+dist/
