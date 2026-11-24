@@ -793,4 +793,19 @@ h3{font-weight:600;font-size:1.05rem;line-height:1.25}
 .any-style b{color:var(--cream)}
 .offer-early{padding-top:12px}
 /* Bruno Luiz · Klip Digital */
+@media (min-width: 761px) {
+  #contato .sec-h,
+  #contato .prose,
+  #contato .contact-form {
+    text-align: center;
+  }
+  #contato .prose,
+  #contato .contact-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #contato .contact-form textarea {
+    text-align: left;
+  }
+}
 .hero h1{font-size:clamp(2.6rem,5.2vw,4.7rem);line-height:1.07;max-width:17ch}.hero-in{align-items:center;gap:48px}.hero p:not(.eyebrow){color:var(--mut)}.eyebrow{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--orange2);margin-bottom:18px}.portrait{border-radius:32px;overflow:hidden;position:relative;max-width:450px;transform:rotate(3deg)}.portrait>img{width:100%;aspect-ratio:4/5;object-fit:cover}.portrait-label{position:absolute;bottom:24px;left:20px;right:20px;padding:16px;border-radius:14px;text-align:center}.expertise{padding:30px 0;border-top:1px solid var(--line);margin-top:40px;color:var(--leaf);text-align:center;font-size:.9rem}.nav-links,.footer-links{display:flex;gap:24px;align-items:center}.prose{max-width:760px}.prose p{font-size:1.05rem;line-height:1.8;color:var(--mut);margin-bottom:20px}.service-grid,.project-grid,.process-grid,.tools-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:32px 0}.service-card{padding:32px;border-radius:24px}.service-card h3{font-size:1.25rem;margin-bottom:20px}.service-card p{color:var(--mut);margin-top:16px}.card-icon{font-size:2rem;color:var(--orange2);display:block;margin-bottom:24px}.project-filters{display:flex;gap:10px;flex-wrap:wrap;margin-top:30px}.filter{padding:12px 18px;border:1px solid var(--line);border-radius:30px;color:var(--mut)}.filter.active{background:var(--orange);color:var(--ink);border-color:var(--orange)}.project-card{border-radius:24px;overflow:hidden}.project-art{height:230px;display:grid;place-items:center;background:radial-gradient(ellipse at 30% 20%,#367453,transparent 70%),#0c2219}.project-art span{font-family:var(--fh);font-size:clamp(2rem,5vw,4rem);letter-spacing:-.06em;color:var(--lime);transform:rotate(-8deg);border:1px solid var(--line);padding:24px}.art-1,.art-3{background:radial-gradient(ellipse at 70% 80%,#79512d,transparent 80%),#0c2219}.project-info{padding:24px}.project-info p,.project-note{color:var(--mut);margin-top:12px}.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px;align-items:start}.about-photo{width:100%;border-radius:24px;position:sticky;top:110px}.contact-form{padding:32px;border-radius:24px;max-width:760px;margin-top:30px}.contact-form label{display:block;margin-bottom:12px}.contact-form textarea{display:block;width:100%;padding:16px;background:var(--bg);border:1px solid var(--line);border-radius:12px;color:var(--cream);font:inherit;resize:vertical;margin-bottom:20px}.contact-form p{color:var(--mut);margin-top:16px}.site-foot p{margin:24px 0;color:var(--mut)}.jv,.hero-by img{object-fit:cover;object-position:50% 61%;border-radius:50%}.nav-id .jv{height:40px;width:40px}.hero-by img{height:30px;width:30px}.nav-id small{letter-spacing:.02em}.sec{scroll-margin-top:90px}.sec:nth-of-type(even){background:rgba(12,34,25,.35)}[hidden]{display:none!important}@media(max-width:760px){.nav-links{display:none}.nav-id small{font-size:.65rem}.nav .btn{font-size:.75rem;padding:10px 12px}.hero-in{grid-template-columns:1fr}.portrait{width:85%;margin:20px auto}.hero h1{max-width:20ch}.service-grid,.project-grid,.process-grid,.tools-grid,.about-grid{grid-template-columns:1fr}.about-photo{max-width:360px;position:static}.footer-links{flex-wrap:wrap;gap:16px}.service-card{padding:26px}.hero-in{gap:28px}}
